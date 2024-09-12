@@ -11,10 +11,10 @@ public static void main(String[] args) {
 	System.out.println("skriv et helttall n >0 ");
 	
 	
-	int n= fakultet.nextInt();
-	int resultat=1;
+	long n= fakultet.nextInt();
+	long resultat=1;
 	
-	for(int i=1;i<=n;i++) {
+	for(long i=1;i<=n;i++) {
 	resultat= resultat*i;
 									
 		

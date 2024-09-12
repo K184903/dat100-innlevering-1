@@ -37,8 +37,10 @@ public class OppgaveO2 {
 			skatt=(84800*0.017)+(377150*0.04)+(267900*0.0136)+((inntekt-1350000)*0.01176);
 		}
 		double skattbeløp = inntekt *( prosent);
+	
+
 		
-	System.out.println("Trinnskatt å betale: " + skatt + "kr");
+   System.out.println("Trinnskatt å betale: " + skatt + "kr");
 	
 	
 				
